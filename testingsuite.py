@@ -157,3 +157,5 @@ if __name__ == '__main__':
         print("Passed search test")
     else:
         print("Failed search test")
+
+    delete_all()
