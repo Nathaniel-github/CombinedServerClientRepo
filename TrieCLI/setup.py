@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as f:
 
 setup(
     name='trie_nathaniel',
-    version='0.1.1',
+    version='0.1.3',
     description='Calls commands to the trie server that can modify its state',
     python_requires='>=3.6, < 3.10',
     install_requires=rq,

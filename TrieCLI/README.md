@@ -76,6 +76,8 @@ sudo apt-get update
 sudo apt-get install python3.6
   ```
 
+NOTE: As it currently stands python 3.10 is not supported due to how inquirer's requirements are built in terms of blessed (it is using the wrong version)
+
 <div id="installation"></div>
 
 ### Installation
