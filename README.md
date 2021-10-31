@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://raw.githubusercontent.com/Nathaniel-github/TrieServer/main/imgs/trie.png">
-    <img src="https://raw.githubusercontent.com/Nathaniel-github/TrieServer/main/imgs/trie.png" alt="Logo" width="200" height="200">
+  <a href="https://raw.githubusercontent.com/Nathaniel-github/CombinedServerClientRepo/main/TrieServer/imgs/trie.png">
+    <img src="https://raw.githubusercontent.com/Nathaniel-github/CombinedServerClientRepo/main/TrieServer/imgs/trie.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Trie Project</h3>
