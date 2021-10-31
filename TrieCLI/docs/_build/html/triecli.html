@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>triecli module &#8212; Trie CLI 0.0.5 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="cli package" href="cli.html" />
+    <link rel="prev" title="TrieClient" href="modules.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-triecli">
+<span id="triecli-module"></span><h1>triecli module<a class="headerlink" href="#module-triecli" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.add">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">val</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.add" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds the given word to trie and displays the status of the operation</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>val (str): The word you wish to add to the trie</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.cli">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">cli</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.cli" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.complete">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">complete</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">val</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.complete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Displays all possible completions of words from the given prefix according to existing words in the trie</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>val (str): The prefix you wish to search the trie for auto-completions of</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.delete">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">delete</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">val</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.delete" title="Permalink to this definition">¶</a></dt>
+<dd><p>Deletes a word from the trie if it exists and displays the status of the operation</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>val (str): The word you wish to delete from the trie</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.search">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">search</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">val</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.search" title="Permalink to this definition">¶</a></dt>
+<dd><p>Searches the trie for the given word and will display whether or not it was found</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>val (str): The word you want to check exists in the trie</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.ui">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">ui</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.ui" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initiates the CLI UI with beautiful controls and easy to navigate options</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.view">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">view</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.view" title="Permalink to this definition">¶</a></dt>
+<dd><p>Displays all the elements in the trie in a slower manner than could be done. Since this retrieves the elements
+of the trie using recursion it is slower but it tests the implementation of the recursive method</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="triecli.viewfast">
+<span class="sig-prename descclassname"><span class="pre">triecli.</span></span><span class="sig-name descname"><span class="pre">viewfast</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#triecli.viewfast" title="Permalink to this definition">¶</a></dt>
+<dd><p>Displays all the elements in the trie in the fastest way possible. This is done through a separate array that
+holds all values in the trie</p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Trie CLI</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">TrieClient</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">triecli module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cli.html">cli package</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">TrieClient</a><ul>
+      <li>Previous: <a href="modules.html" title="previous chapter">TrieClient</a></li>
+      <li>Next: <a href="cli.html" title="next chapter">cli package</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Nathaniel Thomas.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/triecli.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
