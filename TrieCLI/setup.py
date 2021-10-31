@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as f:
 
 setup(
     name='trie_nathaniel',
-    version='0.1.3',
+    version='1.0.0',
     description='Calls commands to the trie server that can modify its state',
     python_requires='>=3.6, < 3.10',
     install_requires=rq,
@@ -19,7 +19,7 @@ setup(
     author_email='catchnate+pypi@gmail.com',
     py_modules=["triecli", "cli"],
     license='MIT',
-    url='https://github.com/Nathaniel-github/TrieCLI',
+    url='https://github.com/Nathaniel-github/CombinedServerClientRepo',
     long_description=ld,
     long_description_content_type='text/markdown',
     entry_points={
