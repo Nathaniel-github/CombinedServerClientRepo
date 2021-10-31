@@ -110,6 +110,10 @@ Possible options include `add`, `delete`, `deleteall`, `search`, `complete`, `vi
 
 For `add`, `delete`, `search`, `complete` an additional `arg` parameter is required that includes the value you would like to add to the trie
 
+LIMITATIONS:
+
+The virtual machine this is running on only has 100GB of disk space and 4GB of memory so if the string is too long or the number of operations is too many there are chances that something will fail on the GCP side. Since this is being hosted using their free tier these are some of the limiations included
+
 _For explanations, please refer to the [Documentation](https://trieclient.readthedocs.io/en/latest/index.html)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
