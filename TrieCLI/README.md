@@ -85,7 +85,7 @@ NOTE: As it currently stands python 3.10 is not supported due to how inquirer's 
 Run the following to install:
 
 ```python
-pip install trie-nathaniel
+pip install trie-nathaniel==1.0.0
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
