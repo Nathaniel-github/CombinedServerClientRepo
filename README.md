@@ -57,14 +57,14 @@ The server is currently being hosted as a GCP virtual machine. I have experience
 <!-- CLIENT INTERACTION -->
 ## Client Interaction
 
-Clients interact with the server through the CLI. The CLI can be installed using pip and more instructions on that can be found in the <a href="https://github.com/Nathaniel-github/TrieCLI">Github repository</a>. As said previously the communication is done using sockets.
+Clients interact with the server through the CLI. The CLI can be installed using pip and more instructions on that can be found in the client's <a href="https://github.com/Nathaniel-github/CombinedServerClientRepo/blob/main/TrieCLI/README.md">README</a>. As said previously the communication is done using sockets.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- DOCUMENTATION -->
 ## Documentation
 
-Documentation can be found in two forms, the first is the README.md that is located inside the <a href="https://github.com/Nathaniel-github/TrieCLI">CLI repository</a> and the second is documentation on the code which can be found on readthedocs with a direct link to it also located inside the README.md (<a href="https://trieclient.readthedocs.io/en/latest/index.html">or here</a>). There is also documentation on the server which can be found inside the <a href="https://github.com/Nathaniel-github/TrieServer">server repository</a>’s README.md or again through readthedocs (<a href="https://trieserver.readthedocs.io/en/latest/index.html">or here</a>). I should mention that this is my first time creating python docs so they are almost guaranteed to be formatted incorrectly on readthedocs but I hope that it is still easily able to be navigated.
+Documentation can be found in two forms, the first is the <a href="https://github.com/Nathaniel-github/CombinedServerClientRepo/blob/main/TrieCLI/README.md">README.md</a> and the second is documentation on the code which can be found on readthedocs with a direct link to it also located inside the README.md (<a href="https://trieclient.readthedocs.io/en/latest/index.html">or here</a>). There is also documentation on the server which can be found inside the server's <a href="https://github.com/Nathaniel-github/CombinedServerClientRepo/blob/main/TrieServer/README.md">README.md</a> or again through readthedocs (<a href="https://trieserver.readthedocs.io/en/latest/index.html">or here</a>). I should mention that this is my first time creating python docs so they are almost guaranteed to be formatted incorrectly on readthedocs but I hope that it is still easily able to be navigated.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
