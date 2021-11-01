@@ -300,7 +300,7 @@ if __name__ == '__main__':
     PORT = 61135
 
     Thread(target=queue_reader, args=(q,)).start()
-    AutoSaver().start()
+    # AutoSaver().start()
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.bind((IP, PORT))
