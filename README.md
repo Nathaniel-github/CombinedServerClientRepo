@@ -1,3 +1,6 @@
+<h1 align="center">THIS PROJECT'S SERVER IS INACTIVE DUE TO GCP COSTS</h1>
+
+
 <div id="top"></div>
 
 <!-- PROJECT LOGO -->
